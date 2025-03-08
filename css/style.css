@@ -1,4 +1,4 @@
-.head{
+.header{
     width: 50%;
     padding: 10px;
     border: 10%;
@@ -9,14 +9,14 @@
 }
 
 
-.head h1{
+.header h1{
     color: rgb(78, 78, 230);
     font-size: 70px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* padding-bottom: 0px; */
 }
 
-.head p{
+.header p{
     font-size: 30px;
 }
 .box{

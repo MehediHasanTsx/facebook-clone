@@ -18,6 +18,7 @@ img {
 
 #body_area {
     background-color: #f0f2f5;
+    width: 100vw;
 }
 
 #content_area {
@@ -65,5 +66,50 @@ img {
     font-size: 17px;
     border-radius: 6px;
     margin-bottom: 15px;
+}
 
+.form_area input[type="button"] {
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_area a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.form_area a:hover {
+    text-decoration: underline;
+}
+
+.form_area button[type="button"] {
+    background: #36a420;
+    border: 1px solid #36a420;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.form_area p {
+    margin-top: 15px;
+    color: #1c1e21;
+    font-size: 14px;
+
+}
+
+.form_area p a {
+    color: #1c1e21;
 }

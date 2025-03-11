@@ -131,19 +131,21 @@ img {
 #footer_area ul li {
     display: inline-block;
     margin: 0 5px;
+    padding: 3px;
+   
     
 }
 
 #footer_area ul li a {
     color: #737373;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
 }
 
 #footer_area ul li a:hover {
-    
     text-decoration: underline;
 }
+
 #footer_area p{
     color: #737373;
 font-size: 11px;

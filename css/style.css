@@ -18,13 +18,9 @@ img {
 
 #body_area {
     background-color: #f0f2f5;
-    /* width: 100vw; */
 }
 
 #content_area {
-    width: 980px;
-    padding: 20px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 72px 0 112px;
@@ -61,7 +57,7 @@ img {
 .form_area input {
     width: 100%;
     display: block;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     padding: 14px 16px;
     font-size: 17px;
     border-radius: 6px;
@@ -113,3 +109,43 @@ img {
 .form_area p a {
     color: #1c1e21;
 }
+
+#footer_area {
+    background-color: white;
+    padding: 25px 0;
+}
+
+.container {
+    width: 980px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#footer_area ul {
+    text-align: left;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+#footer_area ul li {
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+
+#footer_area ul li a {
+    color: #737373;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#footer_area ul li a:hover {
+    
+    text-decoration: underline;
+}
+#footer_area p{
+    color: #737373;
+font-size: 11px;
+}
+

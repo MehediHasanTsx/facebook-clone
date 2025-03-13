@@ -9,7 +9,7 @@ body {
     font-family: inherit;
     font-size: 14px;
     color: rgb(0, 0, 0);
-    max-height: 100vh;
+    height: 100vh;
     background-color:#f0f2f5;
 }
 
@@ -25,7 +25,7 @@ img {
     flex-wrap: wrap;
     height: 80%;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
 }
 
 #content_area {
@@ -33,17 +33,18 @@ img {
     justify-content: space-between;
     padding: 72px 0 112px;
     align-items: center;
-    max-width: 50%;
+    max-width: 60%;
     width: 100%;
     
 }
 
 .left_side {
     width: 400px;
+    padding-right: 20px;
 }
 
 .left_side img {
-    width: 300px;
+    width: 400px;
 }
 
 .left_side h2 {
@@ -73,6 +74,9 @@ img {
     font-size: 17px;
     border-radius: 6px;
     margin-bottom: 15px;
+}
+.form_area input:hover{
+    border: 1px solid rgb(14, 64, 228);
 }
 
 .form_area input[type="button"] {
@@ -124,26 +128,25 @@ img {
 
 #footer_area {
     background-color: white;
-    /* padding: 10px; */
-    height: auto;
+    height: auto fit-content;
     width: 100%;
     justify-content: center;
-   position: absolute;
-   bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
 }
 
 .container {
-    padding: 10px;
+    padding: 15px;
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 
 
 #footer_area ul {
     text-align: left;
-    /* margin-bottom: 15px; */
     border-bottom: 1px solid #ddd;
-    /* padding-bottom: 15px; */
+    padding-bottom: 15px;
 }
 
 #footer_area ul li {
@@ -153,13 +156,13 @@ img {
 
 }
 
-#footer_area ul li a {
+#footer_area ul li a,center a {
     color: #737373;
     font-size: 12px;
     text-decoration: none;
 }
 
-#footer_area ul li a:hover {
+#footer_area ul li a,center a:hover {
     text-decoration: underline;
 }
 
